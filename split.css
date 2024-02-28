@@ -1,0 +1,126 @@
+body {
+    background-color: white;
+   
+  }
+  #mainNav,
+  .sideNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  }
+  
+  .sideNav {
+    border: 1px dashed green;
+    border-radius: 5px;
+  }
+  li {
+    list-style-type: none;
+  }
+  a {
+    padding: 5px;
+    text-decoration: none;
+    margin: 2px;
+  }
+  
+  #wrapper,
+  #containerHolder,
+  #container,
+  form,
+  .navElements,
+  .seperate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navElements {
+    flex-direction: row;
+    border: 1px dashed lightblue;
+  }
+  table {
+    width: 1100px;
+    height: 600px;
+  }
+  
+  .tableH,
+  table {
+    font-size: 20px;
+    border: 2px solid black;
+  }
+  td {
+    border: 1px solid black;
+    border-right: 2px solid black;
+    text-align: left;
+  }
+  th{
+    text-align: left;
+  
+  }
+  
+  .seperate {
+    flex-direction: row;
+    padding: 2px;
+  }
+  .sel {
+    width: 260px;
+  }
+
+  .input{
+    border: 1px solid grey;
+    width:230px;
+    height:50px;
+  }
+  
+  
+  
+  
+  
+  
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 370px;
+  }
+  .center {
+    padding-left:200px;
+  }
+  
+  
+  /* Control the left side */
+  .left {
+    left: 0;
+    
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+    padding-right: 400px;
+    
+  }
+  
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  /* Style the image inside the centered container, if needed */
+  .centered img {
+    width: 150px;
+    border-radius: 50%;
+  }
+  
